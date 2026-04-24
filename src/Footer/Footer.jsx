@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -24,6 +24,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/its_me_jhalle?igsh=aDIxbXptN3AwbmNn"><FaInstagram /></a>
           <a href="https://www.linkedin.com/in/sunil-pandey-242a782a0/"><FaLinkedinIn /></a>
           <a href="https://github.com/LoneKuzuri"><FaGithub /></a>
+           <a href="https://x.com/kchhakhabar69"><FaTwitter /></a>
         </div>
         <p>
           ©2026 All Rights Reserved. <br />
