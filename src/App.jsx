@@ -15,7 +15,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router basename="/"> {/* ✅ changed from /Portfolio to / for root domain */}
+    <Router basename="/SunilPandey"> {/* ✅ set to /SunilPandey for project page deployment */}
       <div>
         <Navbar />
         <Routes>
