@@ -21,8 +21,8 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="social-icons">
-          <a href="https://shorturl.at/kXU6M"><FaInstagram /></a>
-          <a href="https://shorturl.at/A64ms"><FaLinkedinIn /></a>
+          <a href="https://www.instagram.com/its_me_jhalle?igsh=aDIxbXptN3AwbmNn"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/sunil-pandey-242a782a0/"><FaLinkedinIn /></a>
           <a href="https://github.com/LoneKuzuri"><FaGithub /></a>
         </div>
         <p>
