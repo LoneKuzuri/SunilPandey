@@ -44,7 +44,7 @@ const Home = () => {
             <div className="outer-circle"></div>
             <div className="inner-circle"></div>
             <div className="profile-image">
-              <img src="Portfolio/images/profile.jpg" alt="Sunil-Frontend Developer" />
+              <img src={`${base}images/profile.jpg`} alt="Sunil-Frontend Developer" />
             </div>
           </div>
         </div>
