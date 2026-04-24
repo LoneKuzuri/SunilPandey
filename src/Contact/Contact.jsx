@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaEnvelope, FaPhone, FaCopy, FaCheck, FaGithub, FaLinkedin, FaTwitter, FaDownload, FaPaperPlane } from 'react-icons/fa';
 import './Contact.css';
 
-const base = import.meta.env.BASE_URL; // ✅ '/Portfolio/' in prod, '/' in dev
+const base = import.meta.env.BASE_URL; 
 
 const socialLinks = [
-  { icon: <FaGithub />,   label: 'GitHub',   href: 'https://github.com/suneilpandey',     color: '#1a1a1a' },
-  { icon: <FaLinkedin />, label: 'LinkedIn', href: 'https://linkedin.com/in/suneilpandey', color: '#0a66c2' },
-  { icon: <FaTwitter />,  label: 'Twitter',  href: 'https://twitter.com/suneilpandey',    color: '#1d9bf0' },
+  { icon: <FaGithub />,   label: 'GitHub',   href: 'https://github.com/LoneKuzuri',     color: '#1a1a1a' },
+  { icon: <FaLinkedin />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/sunil-pandey-242a782a0/', color: '#0a66c2' },
+  { icon: <FaTwitter />,  label: 'Twitter',  href: 'https://x.com/kchhakhabar69',    color: '#1d9bf0' },
 ];
 
 const Contact = () => {
@@ -133,9 +133,11 @@ const Contact = () => {
             ))}
           </div>
 
+
+         {/* uploading resume  */}
           <div {...r('resume', 0.6)}>
             <a
-              href={`${base}resume/Sunil_Pandey_Resume.pdf`} // ✅ fixed
+              href={`${base}resume/Sunil_Pandey_Resume.pdf`} 
               download
               className="contact-resume-btn"
             >

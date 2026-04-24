@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-import { FaInstagram, FaLinkedinIn, FaGithub, FaDribbble } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -26,7 +26,7 @@ const Footer = () => {
           <a href="https://github.com/LoneKuzuri"><FaGithub /></a>
         </div>
         <p>
-          ©2025 All Rights Reserved. <br />
+          ©2026 All Rights Reserved. <br />
           Made with <span className="purple">💜</span> by <strong>Sunil Pandey</strong>
         </p>
       </div>

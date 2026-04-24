@@ -25,6 +25,9 @@ const Home = () => {
           <h1 className="title">
             <span className="purple-text">Front</span>end Developer
           </h1>
+          <h1 className="title">
+            UI/UX <span className="purple-text">Designer</span> 
+          </h1>
 
           <p className="description">
             I'm a frontend developer based in Nepal. I'll help you build beautiful websites your users will love.

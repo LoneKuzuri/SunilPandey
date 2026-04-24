@@ -15,7 +15,7 @@ const experienceData = [
     {
       company: 'Corpola Tech',
       role: 'Frontend Developer Intern @ Corpola Tech',
-      date: 'Dec - Present 2025',
+      date: 'Dec - Present 2026',
       points: [
         'Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and React.js',
         'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness.',

@@ -15,11 +15,11 @@ const About = () => {
       </p>
 
       <p>
-        Building on that experience, I joined <span className="purple-text">Corpola Tech</span> as a Frontend Developer and UI/UX Designer — the role I'm currently in. Here I work across in-house and client projects using <span className="purple-text">React.js, JavaScript, Sass,</span> and CSS, while also taking ownership of design decisions to ensure every interface is responsive, accessible, and cross-browser tested.
+        Building on that experience, I joined <span className="purple-text">Corpola Tech</span> as a Frontend Developer and UI/UX Designer, the role I'm currently in. Here I work across in-house and client projects using <span className="purple-text">React.js, JavaScript, Sass,</span> and CSS, while also taking ownership of design decisions to ensure every interface is responsive, accessible, and cross-browser tested.
       </p>
 
       <p>
-        Along the way I've developed a solid set of skills spanning <span className="purple-text">responsive design</span>, wireframing, user research, and frontend engineering — always with the goal of bridging the gap between great design and clean, maintainable code.
+        Along the way I've developed a solid set of skills spanning <span className="purple-text">responsive design</span>, wireframing, user research, and frontend engineering, always with the goal of bridging the gap between great design and clean, maintainable code.
       </p>
 
       <p>
