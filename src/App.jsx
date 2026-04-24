@@ -15,7 +15,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router basename="/Portfolio"> {/* ✅ fixed: matches Vite base path */}
+    <Router basename="/"> {/* ✅ changed from /Portfolio to / for root domain */}
       <div>
         <Navbar />
         <Routes>
