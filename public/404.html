@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      (function() {
+        var base = '/SunilPandey';
+        var path = window.location.pathname + window.location.search + window.location.hash;
+        if (path.indexOf(base) === 0) {
+          var relative = path.slice(base.length) || '/';
+          if (!relative.startsWith('#')) {
+            relative = '#' + relative.replace(/^\//, '/');
+          }
+          window.location.replace(base + '/' + relative);
+        } else {
+          window.location.replace(base + '/#/');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the app...</p>
+  </body>
+</html>
