@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './HomePage/Navbar';
 import Home from './HomePage/home';
@@ -15,7 +15,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router basename="/SunilPandey"> {/* ✅ set to /SunilPandey for project page deployment */}
+    <Router basename="/SunilPandey"> {/* ✅ use hash routing for GitHub Pages to support refresh on nested routes */}
       <div>
         <Navbar />
         <Routes>
